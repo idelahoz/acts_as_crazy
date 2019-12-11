@@ -1,3 +1,5 @@
+require 'faker'
+
 module ActsAsCrazy
   module Crazy
 
