@@ -3,6 +3,10 @@ require "acts_as_crazy/crazy"
 
 
 module ActsAsCrazy
+  class << self
+    attr_accessor :configuration
+  end
+
   class Error < StandardError; end
   class CrazyError < StandardError; end
 end
