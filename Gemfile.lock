@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    acts_as_crazy (0.3.2)
+    acts_as_crazy (0.4.0)
       faker (> 1.9)
 
 GEM
