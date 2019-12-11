@@ -31,7 +31,7 @@ module ActsAsCrazy
     end
 
     def am_i_crazy?
-      (rand*100) < 50
+      (rand*100) < ActsAsCrazy.configuration.craziness_level
     end
   end
 end
