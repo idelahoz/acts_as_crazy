@@ -10,7 +10,7 @@ This gem has only educational porpuses. Mainly to serve as an example for this t
 
 ## Installation
 
-You should not install this gem. But if you're that crazy just do it like this:
+**You should not install this gem!!!**. But if you're that crazy just do it like this:
 
 Add this line to your application's Gemfile:
 
