@@ -28,7 +28,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To enable `acts_as_crazy` simply call `acts_as_crazy` in the scope of a ruby class:
+
+```ruby
+  class Foo
+    acts_as_crazy
+
+    def some_method
+      ......
+    end
+  end
+```
+
+then whenever you call a method in an instance of that class you'll get random errors:
+
+```
+  Foo.some_method
+```
+
 
 ## Development
 
