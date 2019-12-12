@@ -4,7 +4,7 @@ I know right? what's the porpuse of this gem? Why would anyone install it?
 
 Exacly!!
 
-You should not install this gems. It will make your objects act like crazy.
+**You should not install this gem!!**. It will make your objects go crazy.
 
 This gem has only educational porpuses. Mainly to serve as an example for this talk: https://slides.com/israeldelahoz/gems#/
 
