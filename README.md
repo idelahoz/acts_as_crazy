@@ -40,12 +40,12 @@ To enable `acts_as_crazy` simply call `acts_as_crazy` in the scope of a ruby cla
   end
 ```
 
-then whenever you call a method in an instance of that class you'll get random errors:
+then whenever you call a method in an instance of that class you'll get random errors with facts about Chuck Norris:
 
 ```
-  Foo.some_method
+[10] pry(main)>Foo.some_method
+ActsAsCrazy::CrazyError: Sorry, I'm crazy. Did you know that Chuck Norris doesn't delete files, he blows them away.
 ```
-
 
 ## Development
 
@@ -55,4 +55,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/acts_as_crazy.
+Bug reports and pull requests are welcome on GitHub at https://github.com/idelahoz/acts_as_crazy.

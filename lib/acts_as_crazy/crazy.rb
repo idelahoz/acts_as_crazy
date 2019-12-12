@@ -12,12 +12,11 @@ module ActsAsCrazy
 
             method_names = e.methods - Object.new.methods
             method_names.each do |method_name|
-              e.define_singleton_method :woof do |*args, &block|
+              e.define_singleton_method method_name do |*args, &block|
                 do_something_crazy
                 super(*args, &block)
               end
             end
-
             e
           end
         end
